@@ -4,6 +4,7 @@
 
 void my_perror(const char *message) {
     fprintf(stderr, "%s: %s\n", message, strerror(errno));
+    exit(1);
 }
 
 int main(int argc, char *argv[]) {
