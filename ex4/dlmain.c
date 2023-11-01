@@ -34,8 +34,10 @@ if((error = dlerror()) !=NULL){
 }
 
 
-int a = 10;
-int b = 2;
+int a;
+a = 10;
+int b;
+b = 2;
 
 printf("add : %d\n", add(a,b));
 printf("sub : %d\n", sub(a,b));
